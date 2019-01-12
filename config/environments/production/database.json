@@ -5,7 +5,7 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "uri": "${process.env.DATABASE_URI || ''}",
+        "uri": "${process.env.DATABASE_URI || 'mongodb://blog:blog@1234@ds149894.mlab.com:49894/blog'}",
         "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
         "port": "${process.env.DATABASE_PORT || 27017}",
         "database": "${process.env.DATABASE_NAME || 'strapi-production'}",
